@@ -26,6 +26,9 @@
   };
 
   home.packages = with pkgs; [
+    code-cursor
+    fnm
+    discord-ptb
     gh
     anki-bin
     awscli2
