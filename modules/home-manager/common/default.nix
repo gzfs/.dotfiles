@@ -10,6 +10,8 @@
     ../programs/btop
     ../programs/git
     ../programs/bat
+    ../programs/fish
+    ../programs/starship
   ];
 
   nixpkgs = {
