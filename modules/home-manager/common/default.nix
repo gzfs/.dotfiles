@@ -12,6 +12,7 @@
     ../programs/bat
     ../programs/fish
     ../programs/starship
+    ../programs/kitty
     ../services/ulauncher
   ];
 
@@ -27,6 +28,7 @@
   };
 
   home.packages = with pkgs; [
+    telegram-desktop
     code-cursor
     fnm
     discord

@@ -13,7 +13,7 @@
 
   home.packages = [
     pkgs.kitty
-    (pkgs.nerdfonts.override {fonts = ["VictorMono"];})
+    (pkgs.nerdfonts.override {fonts = ["VictorMono" "JetBrainsMono"];})
   ];
 
   programs.home-manager.enable = true;
