@@ -28,7 +28,7 @@
   home.packages = with pkgs; [
     code-cursor
     fnm
-    discord-ptb
+    discord
     gh
     anki-bin
     awscli2
