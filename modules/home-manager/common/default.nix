@@ -12,6 +12,7 @@
     ../programs/bat
     ../programs/fish
     ../programs/starship
+    ../services/ulauncher
   ];
 
   nixpkgs = {

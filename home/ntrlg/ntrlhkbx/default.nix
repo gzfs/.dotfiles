@@ -1,16 +1,19 @@
-{ config, pkgs, nhModules, ... }:
-
 {
-  
+  config,
+  pkgs,
+  nhModules,
+  ...
+}: {
   imports = [
-	"${nhModules}/common"
+    "${nhModules}/common"
+    "${nhModules}/desktop/hyprland"
   ];
 
-  home.stateVersion = "24.11"; 
+  home.stateVersion = "24.11";
 
   home.packages = [
     pkgs.kitty
-    (pkgs.nerdfonts.override { fonts = [ "VictorMono" ]; })
+    (pkgs.nerdfonts.override {fonts = ["VictorMono"];})
   ];
 
   programs.home-manager.enable = true;
