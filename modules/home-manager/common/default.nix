@@ -14,6 +14,7 @@
     ../programs/starship
     ../programs/kitty
     ../services/ulauncher
+    ../services/rofi
   ];
 
   nixpkgs = {
@@ -28,6 +29,9 @@
   };
 
   home.packages = with pkgs; [
+    rofi-wayland
+    brightnessctl
+    lm_sensors
     telegram-desktop
     code-cursor
     fnm

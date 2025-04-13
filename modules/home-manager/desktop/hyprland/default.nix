@@ -1,6 +1,7 @@
 {nhModules, ...}: {
   imports = [
     "${nhModules}/services/waybar"
+    "${nhModules}/services/hyprlock"
   ];
 
   xdg.configFile = {
