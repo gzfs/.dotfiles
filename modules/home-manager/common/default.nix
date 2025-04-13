@@ -29,6 +29,8 @@
   };
 
   home.packages = with pkgs; [
+    pavucontrol
+    obsidian
     rofi-wayland
     brightnessctl
     lm_sensors
