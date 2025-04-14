@@ -26,6 +26,11 @@
     package = config.boot.kernelPackages.nvidiaPackages.stable;
   };
 
+  hardware.openrazer.enable = true;
+  hardware.openrazer.users = ["ntrlg"];
+
+  users.groups.plugdev.members = ["ntrlg"];
+
   services.xserver.enable = true;
 
   services.displayManager.sddm.enable = true;
