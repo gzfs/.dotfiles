@@ -29,6 +29,9 @@
   };
 
   home.packages = with pkgs; [
+    hyprpaper
+    swayidle
+    hyprshade
     pavucontrol
     obsidian
     rofi-wayland
